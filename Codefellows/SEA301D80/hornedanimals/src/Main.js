@@ -5,10 +5,11 @@ class Main extends Component {
   render() {
     return (
       <>
-        <Fruit />
-        <Fruit />
-        <Fruit />
-        <Fruit />
+        <Fruit name="Pineapple" student="Daniel"/>
+        <Fruit name="Peaches" student="Emily"/>
+        <Fruit name="Apples" student="Kellen"/>
+        <Fruit name="Blueberries" student="Spencer"/>
+
       </>
     )
   }
