@@ -1,15 +1,10 @@
 import { Component } from 'react';
-import Fruit from './Fruit.js';
 import HornedBeasts from './HornedBeasts.js';
 
 class Main extends Component {
   render() {
     return (
-      <>
-        <Fruit name="Pineapple" student="Daniel"/>
-        <Fruit name="Peaches" student="Emily"/>
-        <Fruit name="Apples" student="Kellen"/>
-        <Fruit name="Blueberries" student="Spencer"/>
+      <div>
         <HornedBeasts
           title="UniWhal"
           imageUrl="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg"
@@ -25,7 +20,7 @@ class Main extends Component {
           imageUrl="https://www.dhresource.com/0x0s/f2-albu-g5-M00-1A-11-rBVaI1hsIIiALxKzAAIHjSU3VkE490.jpg/wholesale-halloween-costume-prop-unicorn.jpg"
           description="Someone wearing a very silly unicorn head mask"
         />
-      </>
+      </div>
     )
   }
 }

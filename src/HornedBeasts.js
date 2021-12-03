@@ -7,8 +7,6 @@ class HornedBeasts extends Component {
   render() {
     return (
       <div>
-        {/* <h3>{this.props.name}</h3>
-        <p>Students: {this.props.student}</p> */}
         <h2>{this.props.title}</h2>
         <img
           src={this.props.imageUrl}
@@ -16,7 +14,6 @@ class HornedBeasts extends Component {
           title={this.props.title}
         />
         <p>Description: {this.props.description}</p>
-
       </div>
     )
   }
