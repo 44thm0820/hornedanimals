@@ -1,3 +1,12 @@
+# Rey's first attempt at 301's lab: day 1.
+
+## Day 01-demonstrate understanding of react components
+
+ This first of four days uses the hornedanimals repo to build out a react app. In doing so, Rey will be demonstrating an understanding of react.
+
+## Day 02-
+tbd
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
