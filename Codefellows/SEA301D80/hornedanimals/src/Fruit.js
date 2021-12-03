@@ -8,7 +8,7 @@ class Fruit extends Component {
     return (
       <div>
         <h3>{this.props.name}</h3>
-        <p>Student: {this.props.student}</p>
+        <p>Students: {this.props.student}</p>
       </div>
     )
   }
