@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 //when written in the return, curly braces enclose a statement/expression to be evaluated.
 
 class HornedBeasts extends Component {
