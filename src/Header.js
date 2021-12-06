@@ -3,9 +3,9 @@ import { Component } from 'react';
 class Header extends Component {
   render() {
     return (
-      <footer>
+      <header>
         <h1>Horned Animals</h1>
-      </footer>
+      </header>
     )
   }
 }
