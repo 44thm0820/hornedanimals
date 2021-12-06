@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import HornedBeasts from './HornedBeasts.js';
+import HornedBeast from './HornedBeast.js';
 
 class Main extends Component {
 
@@ -7,7 +7,7 @@ class Main extends Component {
     return (
       <div>
         {this.props.data.map( (beast) =>
-          <HornedBeasts
+          <HornedBeast
           title={beast.title}
           imageUrl={beast.image_url}
           description={beast.description}/>)}
